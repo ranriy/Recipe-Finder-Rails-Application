@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.8'
-gem 'sqlite3', group: :development
+#gem 'sqlite3', group: :development
+gem 'pg', '~> 0.20.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -28,6 +29,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'httparty'
 
 group :production do
-	gem 'pg'
+	#gem 'pg', '~> 0.15'
 	gem 'rails_12factor'
 end
