@@ -22,4 +22,4 @@ development:
 
 production:
   <<: *default
-  database: find-recipe-app_development
+  database: recipefinder_development
